@@ -1,0 +1,14 @@
+using parcel we built our app
+Another way of bring react into our project via npm
+Earlier we use cdn link to bring react into our project but it is not a prefered way to bring react and reactDOM into our project. why?
+because fetching from cdn is costly operation ,it will get react from unpkg network. If i already have react in my node module then it would
+be easy to use. basically we donot want to make another network call into our project
+
+To bring react into npm we write
+npm install react
+npm i react-dom
+i is the short from of install
+
+start server
+
+npx parcel index.html 
