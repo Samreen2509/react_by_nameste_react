@@ -1,0 +1,14 @@
+{
+  "name": "react_by_nameste_react",
+  "version": "1.0.0",
+  "description": "samreen",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
