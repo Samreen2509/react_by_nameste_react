@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="root1"></div>
+    <div id="root"></div>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <!-- nested structure -->
+    <!-- <div id="parent">
+        <div id="child">
+            <h1>hello</h1>
+        </div>
+    </div> -->
+    <script>
+        const parent1=React.createElement("div",
+        {id:"parent1"},
+        React.createElement("div",
+        {id:"child"},
+        React.createElement("h1",{},"hello")
+        )
+        );
+        const root1=ReactDOM.createRoot(document.getElementById("root1"));
+        root1.render(parent1);
+    </script>
+    <!-- Sibling structure -->
+    <!-- <div id="parent">
+            <h1>hello</h1>
+            <h2>hello</h2>
+    </div> -->
+    <!-- keep the children in array -->
+
+    <script>
+       const parent=React.createElement("div",{id:"parent"},
+       [React.createElement("h1",{},"hello"),React.createElement("h2",{},"hello")]);
+       const root=ReactDOM.createRoot(document.getElementById("root"));
+       root.render(parent);
+    </script>
+</body>
+</html>
