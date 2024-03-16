@@ -1,0 +1,5 @@
+The way we create the react element was very clumsy
+so developer create jsx
+
+JSX is a javascript syntax which is easier to create react element.
+it is not html , it is like html,XML like syntax. It is different

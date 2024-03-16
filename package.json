@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "samreen",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
-  "author": "",
+  "author": "samreen",
   "license": "ISC",
   "devDependencies": {
     "parcel": "^2.12.0",

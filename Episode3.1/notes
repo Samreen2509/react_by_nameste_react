@@ -1,0 +1,3 @@
+npx parcel index.html is used to run the code but after configuration 
+
+we can write npm run start or npm start

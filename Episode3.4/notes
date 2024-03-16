@@ -1,0 +1,26 @@
+React component :- Everything in react is a component.
+
+What is component in react?
+Two type of component in raect
+1) Classbased component - It is a old way- it uses javascript class based component
+2) functional component - new way - It uses javascript function based component
+
+What is react functional component?
+It is just a normal js function, which return some piece of jsx.
+
+Note:- Whenever you are creating any functional comp or react comp just name it as a capital letter otherwise you will get an error.
+e.g. const = Heading = () => {
+    return <h1> nameste </h1>;
+}
+A function which is returing some piece of jsx is called functional comp.
+
+If we have only one line to return we can write like this both function are same
+
+const = Heading = () => <h1> nameste </h1>;
+
+const = Heading = () => (
+     <h1> nameste </h1>;
+)
+ Render functional component
+
+ root.render(<Heading />);
